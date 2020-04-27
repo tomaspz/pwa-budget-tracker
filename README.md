@@ -53,7 +53,7 @@ AND AUTOMATICALLY ADDED to the database when the connection is back online.
 
 ## Deployed Application URL 
 
-[Heroku - PWA Budget Tracker](https://github.com/tomaspz/pwa-budget-tracker)
+[Heroku - PWA Budget Tracker](https://the-budget-tracker.herokuapp.com/)
 
 - - -
 
