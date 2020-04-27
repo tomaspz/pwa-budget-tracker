@@ -4,17 +4,17 @@ This [Progressive Web App](https://developer.mozilla.org/en-US/docs/Web/Progress
 
 A PWA has the following features:
 
-* __Progressive__: If the user has an old browser (IE 11), the application will still work as a normal web app, without delivering any progressive function.
+* __Progressive__: with older browsers, the application will still work as a normal web app, without delivering any progressive function.
 
-* __Works offline__: With service workers we can decide which assets or data requests to cache and make available when the user is offline or on low quality networks.
+* __Works offline__: with service workers we can decide which assets or data requests to cache and make available when the user is offline or on low quality networks.
 
-* __Safe__: Service workers can only be installed using a secure connection (HTTPS or localhost. We will discuss this in detail later).
+* __Safe__: Service workers can only be installed using a secure connection (HTTPS or localhost).
 
-* __Re-engage__: Increases users re-engagement through web notifications, that work in the background, allowing to reach our users even if the application is closed.
+* __Re-engage__: web notifications increase user re-engagement and they work in the background. We can reach users even when the application is closed.
 
-* __Installable__: Thanks to the web app manifest a PWA can be installed on the user's device home screen.
+* __Installable__: the web app manifest allows a PWA to be installed on the user's device home screen.
 
-* __Responsive__: Fits any device: desktop, mobile or tablet.
+* __Responsive__: fits the screen of any device: desktop, mobile or tablet.
 
 ## App Screenshot
 
@@ -37,6 +37,19 @@ __Online Functionality__:
   * Offline entries are added to tracker automatically.
 
 - - -
+
+## Deployed Application URL 
+
+[Heroku - PWA Budget Tracker](https://the-budget-tracker.herokuapp.com/)
+
+- - -
+
+## Github repository URL 
+
+[GitHub Repo - PWA Budget Tracker](https://github.com/tomaspz/pwa-budget-tracker)
+
+
+- - -
 ## Technologies 
 
 * [HTML, CSS, JAVASCRIPT](https://html-css-js.com/), which are the 3 main technologies of the web in the client side.
@@ -46,7 +59,7 @@ __Online Functionality__:
 * [MONGODB](https://www.mongodb.com/) is a general purpose, document-based, distributed database built for modern application developers and for the cloud era.
 * [MONGOOSE JS](https://mongoosejs.com/) is an npm package that allows elegant mongodb object modeling for node.js.
 * [INDEXEDDB WEB API](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API) is a low-level API for client-side storage of significant amounts of structured data, including files/blobs. This API uses indexes to enable high-performance searches of this data.
-* [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a native app-like user experience to cross-platform web applications.
+* [PWA (Progressive Web Application)](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps) are web apps that use emerging web browser APIs and features along with traditional progressive enhancement strategy to bring a native app-like user experience to cross-platform web applications.
 
 - - -
 ## User Story
@@ -64,15 +77,3 @@ I WANT to work on the Budget App without an internet connection
 AND WHEN I input any budget transaction (withdrawal, deposit, etc)
 THEN I WANT the transacton to be shown on the page, 
 AND AUTOMATICALLY ADDED to the database when the connection is back online.
-
-- - -
-
-## Deployed Application URL 
-
-[Heroku - PWA Budget Tracker](https://the-budget-tracker.herokuapp.com/)
-
-- - -
-
-## Github repository URL 
-
-[GitHub Repo - PWA Budget Tracker](https://github.com/tomaspz/pwa-budget-tracker)
